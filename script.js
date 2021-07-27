@@ -3,8 +3,8 @@ $(document).ready(function()
         $("#submit").click(function()
         {
             var name = $("#name").val();
-            var email = $("#number").val();
-            var number = $("#email").val();
+            var number = $("#number").val();
+            var email = $("#email").val();
             var country = $("#country").val();
             var Message = $("#Message").val();
             if(name==''||number==''||email==''||country==''||Message=='')
@@ -33,7 +33,4 @@ $(document).ready(function()
             });
             
         });
-        $("#ref").click(function(){
-            alert("hii");
-        }); 
     });

@@ -4,7 +4,6 @@
 .nav-item a{
     font-size: 20px;
     font-weight:800;
-    font-size: 21px;
     margin-right: 13px;
 }
 #how:hover{
@@ -49,15 +48,28 @@
 .social-media:hover{
     width: 40px;
 }
-table{
-    font-size: 30px;
+.bg
+{
+    background-color: salmon;
+}
+#admin{
+    margin-right: 47%;
+    letter-spacing: 3px;
+    font-size: 22px;
+    font-weight:900;
+}
+#reff{
+    border-radius: 30px;
+}
+/* #table{
+    margin-top: 70px;
+} */
+#addData{
+    margin-left: 10%;
 }
 @media (max-width:500px){
     #hero{
         margin-top: 20%;
-    }
-    #how:hover{
-        color: darkorange;
     }
     iframe{
         width: 320px;
@@ -71,8 +83,8 @@ table{
     }
     #navbarlinks{
         margin-left: 1px;
-    }    
-    .container{
-        width: 50px;
+    }   
+    #admin{
+        margin-right: 38%;
     }
 }
